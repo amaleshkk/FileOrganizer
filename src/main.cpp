@@ -7,6 +7,7 @@
 #include <list>
 #include <vector>
 #include <memory>
+#include <atomic>
 #include <filesystem>
 
 void CopyFilesConcurrently(std::shared_ptr<FileCopy> fileCopy, const std::list<std::string> &outputFiles,
