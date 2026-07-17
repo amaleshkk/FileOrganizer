@@ -1,4 +1,4 @@
-cmake_mininum_required(VERSION 3.16)
+cmake_minimum_required(VERSION 3.16)
 
 project(fileOrganizer LANGUAGES CXX)
 
@@ -10,5 +10,5 @@ include_directories(include)
 
 add_executable(fileOrganizer 
     src/main.cpp
-    src/FilParser.cpp
+    src/FileParser.cpp
     src/FileCopy.cpp)
