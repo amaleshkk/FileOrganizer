@@ -5,7 +5,6 @@ Application that organize files based on the file extension.
 ## Installation
 ### Windows
 - Make sure gcc compiler is installed.
-- Clone the repo
 ``` bash
 git clone https://github.com/amaleshkk/FileOrganizer.git
 cd FileOrganizer
