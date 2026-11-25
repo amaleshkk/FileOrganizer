@@ -2,7 +2,7 @@
 
 #include <iostream>
 #include <filesystem>
-#include <list>
+#include <vector>
 
 bool FileParser::ValidateData()
 {
@@ -15,7 +15,7 @@ bool FileParser::ValidateData()
     return true;
 }
 
-bool FileParser::GetFileData(std::list<std::string> &outputFiles)
+bool FileParser::GetFileData(std::vector<std::string> &outputFiles)
 {
     for (const auto &files : fs::recursive_directory_iterator(inputDirectory))
     {

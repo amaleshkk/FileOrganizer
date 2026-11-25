@@ -1,7 +1,7 @@
 #pragma once
 #include "common.h"
 
-#include <list>
+#include <vector>
 
 class FileParser
 {
@@ -10,7 +10,7 @@ public:
                                                                     outputDirectory(outputDirectory) {}
     ~FileParser() {}
     bool ValidateData();
-    bool GetFileData(std::list<std::string> &outputFiles);
+    bool GetFileData(std::vector<std::string> &outputFiles);
 
 private:
     fs::path inputDirectory;
